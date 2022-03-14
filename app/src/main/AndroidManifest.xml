@@ -4,11 +4,27 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_main"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sulbingrecipe">
+        <activity
+            android:name=".SulbingrecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UsedateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeverageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DessertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SulbingActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
