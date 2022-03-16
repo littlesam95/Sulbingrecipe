@@ -32,7 +32,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1200, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 450, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 500, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -45,7 +45,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 540, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 600, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -58,7 +58,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1800, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 630, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 640, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -84,7 +84,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 720, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 800, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -105,7 +105,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         // 오레오초코몬스터설빙
         if (whatsulbing == "oreochocomonster") {
             binding.sulbingimage.setImageResource(R.drawable.oreochocomonster)
-            binding.recipetable.setImageResource(R.drawable.oreochochrecipe)
+            binding.recipetable.setImageResource(R.drawable.oreochocomonsterrecipe)
             binding.recipedetail.setImageResource(R.drawable.oreochocorecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3000, )
             imageLayoutParams.gravity = Gravity.CENTER
@@ -136,7 +136,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 990, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -149,7 +149,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1170, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 810, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -162,7 +162,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1260, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 750, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -175,7 +175,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2700, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 650, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -188,7 +188,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3400, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1260, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 720, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -201,7 +201,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 700, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -214,7 +214,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1350, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1000, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -227,7 +227,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1170, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 700, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -240,7 +240,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 4000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1260, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 800, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -253,7 +253,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2900, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 810, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 600, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -266,7 +266,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3200, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 600, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -279,7 +279,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3800, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1080, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 600, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -292,7 +292,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5900, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 700, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -305,7 +305,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2800, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 810, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 500, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -318,7 +318,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1080, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 600, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -331,7 +331,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3200, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1080, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 810, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -339,12 +339,12 @@ class SulbingrecipeActivity : AppCompatActivity() {
         // 와르르생딸기설빙
         if (whatsulbing == "warrplainstrawberry") {
             binding.sulbingimage.setImageResource(R.drawable.warrplainstrawberry)
-            binding.recipetable.setImageResource(R.drawable.warrplainstrawbarryrecipe)
+            binding.recipetable.setImageResource(R.drawable.warrplainstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.warrplainstrawbarryrecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 990, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 630, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
@@ -357,7 +357,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 4500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
-            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1350, )
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 900, )
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.recipetable.layoutParams = imageLayoutParams2
         }
