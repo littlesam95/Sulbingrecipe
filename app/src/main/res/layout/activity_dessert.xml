@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SulbingActivity">
+    tools:context=".DessertActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,9 +20,15 @@
             android:src="@drawable/desserttitle" />
     </LinearLayout>
 
-    <NestedScrollView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dessert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundcolor1" />
+
+    <!--
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/dessertscroll"
-        android:nestedScrollingEnabled="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="Dessert Menu"
@@ -638,6 +644,6 @@
             </LinearLayout>
 
         </LinearLayout>
-    </NestedScrollView>
-
+    </androidx.core.widget.NestedScrollView>
+    -->
 </LinearLayout>

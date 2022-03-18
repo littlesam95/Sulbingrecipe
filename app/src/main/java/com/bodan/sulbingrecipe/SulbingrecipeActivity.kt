@@ -25,7 +25,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 인절미설빙
-        if (whatsulbing == "injeolmi") {
+        if (whatsulbing == "1") {
             binding.sulbingimage.setImageResource(R.drawable.injeolmisulbing)
             binding.recipetable.setImageResource(R.drawable.injeolmirecipe)
             binding.recipedetail.setImageResource(R.drawable.injeolmirecipedetail)
@@ -38,7 +38,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 팥인절미설빙
-        if (whatsulbing == "patinjeolmi") {
+        if (whatsulbing == "2") {
             binding.sulbingimage.setImageResource(R.drawable.patinjeolmisulbing)
             binding.recipetable.setImageResource(R.drawable.patinjeolmirecipe)
             binding.recipedetail.setImageResource(R.drawable.patinjeolmirecipedetail)
@@ -51,7 +51,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 흑임자찰떡설빙
-        if (whatsulbing == "heukimjachaltteok") {
+        if (whatsulbing == "3") {
             binding.sulbingimage.setImageResource(R.drawable.heukimjachaltteok)
             binding.recipetable.setImageResource(R.drawable.heukimjachaltteokrecipe)
             binding.recipedetail.setImageResource(R.drawable.heukimjachaltteokrecipedetail)
@@ -64,7 +64,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 치즈설빙
-        if (whatsulbing == "cheese") {
+        if (whatsulbing == "4") {
             binding.sulbingimage.setImageResource(R.drawable.cheesesulbing)
             binding.recipetable.setImageResource(R.drawable.cheeserecipe)
             binding.recipedetail.setImageResource(R.drawable.cheeserecipedetail)
@@ -77,7 +77,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 리얼그린티설빙
-        if (whatsulbing == "realgreentea") {
+        if (whatsulbing == "5") {
             binding.sulbingimage.setImageResource(R.drawable.realgreentea)
             binding.recipetable.setImageResource(R.drawable.realgreentearecipe)
             binding.recipedetail.setImageResource(R.drawable.realgreentearecipedetail)
@@ -90,7 +90,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 그린티초코설빙
-        if (whatsulbing == "greenteachoco") {
+        if (whatsulbing == "6") {
             binding.sulbingimage.setImageResource(R.drawable.greenteachoco)
             binding.recipetable.setImageResource(R.drawable.greenteachocorecipe)
             binding.recipedetail.setImageResource(R.drawable.greenteachocorecipedetail)
@@ -103,7 +103,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 오레오초코몬스터설빙
-        if (whatsulbing == "oreochocomonster") {
+        if (whatsulbing == "7") {
             binding.sulbingimage.setImageResource(R.drawable.oreochocomonster)
             binding.recipetable.setImageResource(R.drawable.oreochocomonsterrecipe)
             binding.recipedetail.setImageResource(R.drawable.oreochocorecipedetail)
@@ -116,7 +116,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 초코브라우니설빙
-        if (whatsulbing == "chocobrownie") {
+        if (whatsulbing == "8") {
             binding.sulbingimage.setImageResource(R.drawable.chocobrownie)
             binding.recipetable.setImageResource(R.drawable.chocobrownierecipe)
             binding.recipedetail.setImageResource(R.drawable.chocobrownierecipedetail)
@@ -129,7 +129,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 민트초코설빙
-        if (whatsulbing == "mintochoco") {
+        if (whatsulbing == "9") {
             binding.sulbingimage.setImageResource(R.drawable.mintchoco)
             binding.recipetable.setImageResource(R.drawable.mintchocorecipe)
             binding.recipedetail.setImageResource(R.drawable.mintchocorecipedetail)
@@ -142,7 +142,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 티라미수설빙
-        if (whatsulbing == "tiramisu") {
+        if (whatsulbing == "10") {
             binding.sulbingimage.setImageResource(R.drawable.tiramisu)
             binding.recipetable.setImageResource(R.drawable.tiramisurecipe)
             binding.recipedetail.setImageResource(R.drawable.tiramisurecipedetail)
@@ -155,7 +155,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 딸기마카롱설빙
-        if (whatsulbing == "strawberrymacaron") {
+        if (whatsulbing == "11") {
             binding.sulbingimage.setImageResource(R.drawable.strawberrymacaron)
             binding.recipetable.setImageResource(R.drawable.strawberrymacaronrecipe)
             binding.recipedetail.setImageResource(R.drawable.strawberrymacaronrecipedetail)
@@ -168,7 +168,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 애플망고치즈설빙
-        if (whatsulbing == "applemangocheese") {
+        if (whatsulbing == "12") {
             binding.sulbingimage.setImageResource(R.drawable.applemangocheese)
             binding.recipetable.setImageResource(R.drawable.applemangocheeserecipe)
             binding.recipedetail.setImageResource(R.drawable.applemangocheeserecipedetail)
@@ -181,7 +181,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 킹망고설빙
-        if (whatsulbing == "kingmango") {
+        if (whatsulbing == "13") {
             binding.sulbingimage.setImageResource(R.drawable.kingmango)
             binding.recipetable.setImageResource(R.drawable.kingmangorecipe)
             binding.recipedetail.setImageResource(R.drawable.kingmangorecipedetail)
@@ -194,7 +194,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 블루베리치즈설빙
-        if (whatsulbing == "blueberrycheese") {
+        if (whatsulbing == "14") {
             binding.sulbingimage.setImageResource(R.drawable.blueberrycheese)
             binding.recipetable.setImageResource(R.drawable.blueberrycheeserecipe)
             binding.recipedetail.setImageResource(R.drawable.blueberrycheeserecipedetail)
@@ -207,7 +207,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 칙촉몬스터설빙
-        if (whatsulbing == "chikchokmonster") {
+        if (whatsulbing == "15") {
             binding.sulbingimage.setImageResource(R.drawable.chikchokmonster)
             binding.recipetable.setImageResource(R.drawable.chikchokmonsterrecipe)
             binding.recipedetail.setImageResource(R.drawable.chikchokmonsterrecipedetail)
@@ -220,7 +220,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 인절미&망고 반반설빙
-        if (whatsulbing == "injeolmimango") {
+        if (whatsulbing == "16") {
             binding.sulbingimage.setImageResource(R.drawable.injeolmimango)
             binding.recipetable.setImageResource(R.drawable.injeolmimangorecipe)
             binding.recipedetail.setImageResource(R.drawable.injeolmimangorecipedetail)
@@ -233,7 +233,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 팥인절미&망고 반반설빙
-        if (whatsulbing == "patinjeolmimango") {
+        if (whatsulbing == "17") {
             binding.sulbingimage.setImageResource(R.drawable.patinjeolmimango)
             binding.recipetable.setImageResource(R.drawable.patinjeolmimangorecipe)
             binding.recipedetail.setImageResource(R.drawable.patinjeolmimangorecipedetail)
@@ -246,7 +246,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 리얼통통메론설빙
-        if (whatsulbing == "realtontonmelon") {
+        if (whatsulbing == "18") {
             binding.sulbingimage.setImageResource(R.drawable.realtontonmelon)
             binding.recipetable.setImageResource(R.drawable.realtontonmelonrecipe)
             binding.recipedetail.setImageResource(R.drawable.realtontonmelonrecipedetail)
@@ -259,7 +259,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 요거통통메론설빙
-        if (whatsulbing == "yogurtontonmelon") {
+        if (whatsulbing == "19") {
             binding.sulbingimage.setImageResource(R.drawable.yogurtontonmelon)
             binding.recipetable.setImageResource(R.drawable.yogurtontonmelonrecipe)
             binding.recipedetail.setImageResource(R.drawable.yogurtontonmelonrecipedetail)
@@ -272,7 +272,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 딸기치즈메론설빙
-        if (whatsulbing == "strawberrycheesemelon") {
+        if (whatsulbing == "20") {
             binding.sulbingimage.setImageResource(R.drawable.strawberrycheesemelon)
             binding.recipetable.setImageResource(R.drawable.strawberrycheesemelonrecipe)
             binding.recipedetail.setImageResource(R.drawable.strawberrycheesemelonrecipedetail)
@@ -285,7 +285,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 샤인머스켓메론설빙
-        if (whatsulbing == "shinemuscat") {
+        if (whatsulbing == "21") {
             binding.sulbingimage.setImageResource(R.drawable.shinemuscat)
             binding.recipetable.setImageResource(R.drawable.shinemuscatrecipe)
             binding.recipedetail.setImageResource(R.drawable.shinemuscatrecipedetail)
@@ -298,7 +298,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 생딸기설빙
-        if (whatsulbing == "plainstrawberry") {
+        if (whatsulbing == "22") {
             binding.sulbingimage.setImageResource(R.drawable.plainstrawberry)
             binding.recipetable.setImageResource(R.drawable.plainstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.plainstrawberryrecipedetail)
@@ -311,7 +311,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 프리미엄생딸기설빙
-        if (whatsulbing == "premiumplainstrawberry") {
+        if (whatsulbing == "23") {
             binding.sulbingimage.setImageResource(R.drawable.premiumplainstrawberry)
             binding.recipetable.setImageResource(R.drawable.premiumplainstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.premiumplainstrawberryrecipedetail)
@@ -324,7 +324,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 순수요거생딸기설빙
-        if (whatsulbing == "yogurtplainstrawberry") {
+        if (whatsulbing == "24") {
             binding.sulbingimage.setImageResource(R.drawable.yogurtplainstrawberryy)
             binding.recipetable.setImageResource(R.drawable.plainyogurtstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.plainyogurtstrawberryrecipedetail)
@@ -337,7 +337,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 와르르생딸기설빙
-        if (whatsulbing == "warrplainstrawberry") {
+        if (whatsulbing == "25") {
             binding.sulbingimage.setImageResource(R.drawable.warrplainstrawberry)
             binding.recipetable.setImageResource(R.drawable.warrplainstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.warrplainstrawbarryrecipedetail)
@@ -350,7 +350,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         }
 
         // 첵스초코딸기설빙
-        if (whatsulbing == "chekschocostrawberry") {
+        if (whatsulbing == "26") {
             binding.sulbingimage.setImageResource(R.drawable.chekschocostrawberry)
             binding.recipetable.setImageResource(R.drawable.chekschocostrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.chekschocostrawberryrecipedetail)

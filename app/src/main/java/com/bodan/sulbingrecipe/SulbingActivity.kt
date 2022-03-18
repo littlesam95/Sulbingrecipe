@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
+import androidx.recyclerview.widget.GridLayoutManager
 import com.bodan.sulbingrecipe.databinding.ActivitySulbingBinding
+import kotlinx.android.synthetic.main.activity_sulbing.*
 
 class SulbingActivity : AppCompatActivity() {
     // 뷰 바인딩
@@ -17,6 +19,42 @@ class SulbingActivity : AppCompatActivity() {
         mBinding = ActivitySulbingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val sulbingList = arrayListOf(
+            SulbingRecycler(R.drawable.injeolmisulbing, 1),
+            SulbingRecycler(R.drawable.patinjeolmisulbing, 2),
+            SulbingRecycler(R.drawable.heukimjachaltteok, 3),
+            SulbingRecycler(R.drawable.cheesesulbing, 4),
+            SulbingRecycler(R.drawable.realgreentea, 5),
+            SulbingRecycler(R.drawable.greenteachoco, 6),
+            SulbingRecycler(R.drawable.oreochocomonster, 7),
+            SulbingRecycler(R.drawable.chocobrownie, 8),
+            SulbingRecycler(R.drawable.mintchoco, 9),
+            SulbingRecycler(R.drawable.tiramisu, 10),
+            SulbingRecycler(R.drawable.strawberrymacaron, 11),
+            SulbingRecycler(R.drawable.applemangocheese, 12),
+            SulbingRecycler(R.drawable.kingmango, 13),
+            SulbingRecycler(R.drawable.blueberrycheese, 14),
+            SulbingRecycler(R.drawable.chikchokmonster, 15),
+            SulbingRecycler(R.drawable.injeolmimango, 16),
+            SulbingRecycler(R.drawable.patinjeolmimango, 17),
+            SulbingRecycler(R.drawable.realtontonmelon, 18),
+            SulbingRecycler(R.drawable.yogurtontonmelon, 19),
+            SulbingRecycler(R.drawable.strawberrycheesemelon, 20),
+            SulbingRecycler(R.drawable.shinemuscat, 21),
+            SulbingRecycler(R.drawable.plainstrawberry, 22),
+            SulbingRecycler(R.drawable.premiumplainstrawberry, 23),
+            SulbingRecycler(R.drawable.yogurtplainstrawberryy, 24),
+            SulbingRecycler(R.drawable.warrplainstrawberry, 25),
+            SulbingRecycler(R.drawable.chekschocostrawberry, 26)
+        )
+
+        rv_sulbing.layoutManager = GridLayoutManager(applicationContext, 2)
+        rv_sulbing.setHasFixedSize(true)
+        rv_sulbing.adapter = SulbingAdapter(sulbingList)
+
+        rv_sulbing.setNestedScrollingEnabled(false);
+
+        /*
         // 인절미설빙 레시피
         binding.injeolmi.setOnClickListener {
             var idText = "injeolmi"
@@ -224,5 +262,6 @@ class SulbingActivity : AppCompatActivity() {
             intent.putExtra("idText", idText)
             startActivity(intent)
         }
+        */
     }
 }
