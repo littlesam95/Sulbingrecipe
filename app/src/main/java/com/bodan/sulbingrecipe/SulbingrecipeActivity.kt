@@ -26,7 +26,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
 
         // 인절미설빙
         if (whatsulbing == "1") {
-            binding.sulbingimage.setImageResource(R.drawable.injeolmisulbing)
+            binding.sulbingimage.setImageResource(R.drawable.injeolmi)
             binding.recipetable.setImageResource(R.drawable.injeolmirecipe)
             binding.recipedetail.setImageResource(R.drawable.injeolmirecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1200, )
@@ -39,9 +39,9 @@ class SulbingrecipeActivity : AppCompatActivity() {
 
         // 팥인절미설빙
         if (whatsulbing == "2") {
-            binding.sulbingimage.setImageResource(R.drawable.patinjeolmisulbing)
-            binding.recipetable.setImageResource(R.drawable.patinjeolmirecipe)
-            binding.recipedetail.setImageResource(R.drawable.patinjeolmirecipedetail)
+            binding.sulbingimage.setImageResource(R.drawable.patinjeolmi)
+            binding.recipetable.setImageResource(R.drawable.patinjelomirecipe)
+            binding.recipedetail.setImageResource(R.drawable.patinjelomirecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
@@ -65,7 +65,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
 
         // 치즈설빙
         if (whatsulbing == "4") {
-            binding.sulbingimage.setImageResource(R.drawable.cheesesulbing)
+            binding.sulbingimage.setImageResource(R.drawable.cheese)
             binding.recipetable.setImageResource(R.drawable.cheeserecipe)
             binding.recipedetail.setImageResource(R.drawable.cheeserecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2400, )
@@ -106,7 +106,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         if (whatsulbing == "7") {
             binding.sulbingimage.setImageResource(R.drawable.oreochocomonster)
             binding.recipetable.setImageResource(R.drawable.oreochocomonsterrecipe)
-            binding.recipedetail.setImageResource(R.drawable.oreochocorecipedetail)
+            binding.recipedetail.setImageResource(R.drawable.oreochocomonsterrecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3000, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
@@ -286,9 +286,9 @@ class SulbingrecipeActivity : AppCompatActivity() {
 
         // 샤인머스켓메론설빙
         if (whatsulbing == "21") {
-            binding.sulbingimage.setImageResource(R.drawable.shinemuscat)
-            binding.recipetable.setImageResource(R.drawable.shinemuscatrecipe)
-            binding.recipedetail.setImageResource(R.drawable.shinemuscatrecipedetail)
+            binding.sulbingimage.setImageResource(R.drawable.shinemuscatmelon)
+            binding.recipetable.setImageResource(R.drawable.shinemuscatmelonrecipe)
+            binding.recipedetail.setImageResource(R.drawable.shinemuscatmelonrecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5900, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams
@@ -325,7 +325,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
 
         // 순수요거생딸기설빙
         if (whatsulbing == "24") {
-            binding.sulbingimage.setImageResource(R.drawable.yogurtplainstrawberryy)
+            binding.sulbingimage.setImageResource(R.drawable.plainyogurtstrawberry)
             binding.recipetable.setImageResource(R.drawable.plainyogurtstrawberryrecipe)
             binding.recipedetail.setImageResource(R.drawable.plainyogurtstrawberryrecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 3200, )
@@ -340,7 +340,7 @@ class SulbingrecipeActivity : AppCompatActivity() {
         if (whatsulbing == "25") {
             binding.sulbingimage.setImageResource(R.drawable.warrplainstrawberry)
             binding.recipetable.setImageResource(R.drawable.warrplainstrawberryrecipe)
-            binding.recipedetail.setImageResource(R.drawable.warrplainstrawbarryrecipedetail)
+            binding.recipedetail.setImageResource(R.drawable.warrplainstrawberryrecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 5500, )
             imageLayoutParams.gravity = Gravity.CENTER
             binding.recipedetail.layoutParams = imageLayoutParams

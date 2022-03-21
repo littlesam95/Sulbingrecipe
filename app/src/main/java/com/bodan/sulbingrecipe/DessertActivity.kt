@@ -45,7 +45,7 @@ class DessertActivity : AppCompatActivity() {
             DessertRecycler(R.drawable.plaincroffle, 21),
             DessertRecycler(R.drawable.injeolmicroffle, 22),
             DessertRecycler(R.drawable.plainstrawberrycroffle, 23),
-            DessertRecycler(R.drawable.chochcroffle, 24),
+            DessertRecycler(R.drawable.chococroffle, 24),
             DessertRecycler(R.drawable.cheesecroffle, 25),
             DessertRecycler(R.drawable.chikchokcroffle, 26),
             DessertRecycler(R.drawable.mintchococroffle, 27),

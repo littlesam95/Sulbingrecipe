@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sulbingrecipe">
         <activity
+            android:name=".BeveragerecipeActivity"
+            android:exported="false" />
+        <activity
             android:name=".DessertrecipeActivity"
             android:exported="false" />
         <activity

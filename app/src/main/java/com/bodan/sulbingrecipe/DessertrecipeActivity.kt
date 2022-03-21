@@ -324,7 +324,7 @@ class DessertrecipeActivity : AppCompatActivity() {
 
         // 초코크로플
         if (whatdessert == "24") {
-            binding.dessertimage.setImageResource(R.drawable.chochcroffle)
+            binding.dessertimage.setImageResource(R.drawable.chococroffle)
             binding.dessertrecipetable.setImageResource(R.drawable.chochcrofflerecipe)
             binding.dessertrecipedetail.setImageResource(R.drawable.chochcrofflerecipedetail)
             val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 875, )

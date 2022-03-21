@@ -20,10 +20,10 @@ class SulbingActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val sulbingList = arrayListOf(
-            SulbingRecycler(R.drawable.injeolmisulbing, 1),
-            SulbingRecycler(R.drawable.patinjeolmisulbing, 2),
+            SulbingRecycler(R.drawable.injeolmi, 1),
+            SulbingRecycler(R.drawable.patinjeolmi, 2),
             SulbingRecycler(R.drawable.heukimjachaltteok, 3),
-            SulbingRecycler(R.drawable.cheesesulbing, 4),
+            SulbingRecycler(R.drawable.cheese, 4),
             SulbingRecycler(R.drawable.realgreentea, 5),
             SulbingRecycler(R.drawable.greenteachoco, 6),
             SulbingRecycler(R.drawable.oreochocomonster, 7),
@@ -40,10 +40,10 @@ class SulbingActivity : AppCompatActivity() {
             SulbingRecycler(R.drawable.realtontonmelon, 18),
             SulbingRecycler(R.drawable.yogurtontonmelon, 19),
             SulbingRecycler(R.drawable.strawberrycheesemelon, 20),
-            SulbingRecycler(R.drawable.shinemuscat, 21),
+            SulbingRecycler(R.drawable.shinemuscatmelon, 21),
             SulbingRecycler(R.drawable.plainstrawberry, 22),
             SulbingRecycler(R.drawable.premiumplainstrawberry, 23),
-            SulbingRecycler(R.drawable.yogurtplainstrawberryy, 24),
+            SulbingRecycler(R.drawable.plainyogurtstrawberry, 24),
             SulbingRecycler(R.drawable.warrplainstrawberry, 25),
             SulbingRecycler(R.drawable.chekschocostrawberry, 26)
         )
