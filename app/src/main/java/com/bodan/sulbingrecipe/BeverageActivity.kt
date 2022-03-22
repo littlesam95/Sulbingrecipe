@@ -45,6 +45,16 @@ class BeverageActivity : AppCompatActivity() {
             BeverageRecycler(R.drawable.greentealatte, 25),
             BeverageRecycler(R.drawable.strawberrylatte, 26),
             BeverageRecycler(R.drawable.mixedgrainpowderlatte, 27),
+            BeverageRecycler(R.drawable.americano, 28),
+            BeverageRecycler(R.drawable.americanoventi, 29),
+            BeverageRecycler(R.drawable.cafelatte, 30),
+            BeverageRecycler(R.drawable.vanlialatte, 31),
+            BeverageRecycler(R.drawable.cafemocha, 32),
+            BeverageRecycler(R.drawable.cappuccino, 33),
+            BeverageRecycler(R.drawable.caramelmacchiato, 34),
+            BeverageRecycler(R.drawable.condensedmilklatte, 35),
+            BeverageRecycler(R.drawable.coldbrewamericano, 36),
+            BeverageRecycler(R.drawable.coldbrewlatte, 37),
         )
 
         rv_beverage.layoutManager = GridLayoutManager(applicationContext, 2)

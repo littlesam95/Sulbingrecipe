@@ -372,5 +372,135 @@ class BeveragerecipeActivity : AppCompatActivity() {
             imageLayoutParams2.gravity = Gravity.CENTER
             binding.beveragerecipetable.layoutParams = imageLayoutParams2
         }
+
+        // 아메리카노
+        if (whatbeverage == "28") {
+            binding.beverageimage.setImageResource(R.drawable.americano)
+            binding.beveragerecipetable.setImageResource(R.drawable.americanorecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.americanorecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 925, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 685, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 아메리카노 벤티
+        if (whatbeverage == "29") {
+            binding.beverageimage.setImageResource(R.drawable.americanoventi)
+            binding.beveragerecipetable.setImageResource(R.drawable.americanoventirecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.americanoventirecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1050, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 685, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 카페라떼
+        if (whatbeverage == "30") {
+            binding.beverageimage.setImageResource(R.drawable.cafelatte)
+            binding.beveragerecipetable.setImageResource(R.drawable.cafelatterecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.cafelatterecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 975, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 685, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 바닐라라떼
+        if (whatbeverage == "31") {
+            binding.beverageimage.setImageResource(R.drawable.vanlialatte)
+            binding.beveragerecipetable.setImageResource(R.drawable.vanlialatterecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.vanlialatterecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 950, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 865, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 카페모카
+        if (whatbeverage == "32") {
+            binding.beverageimage.setImageResource(R.drawable.cafemocha)
+            binding.beveragerecipetable.setImageResource(R.drawable.cafemocharecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.cafemocharecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 2200, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1350, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 카푸치노
+        if (whatbeverage == "33") {
+            binding.beverageimage.setImageResource(R.drawable.cappuccino)
+            binding.beveragerecipetable.setImageResource(R.drawable.cappuccinorecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.cappuccinorecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 910, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 395, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 카라멜마끼아또
+        if (whatbeverage == "34") {
+            binding.beverageimage.setImageResource(R.drawable.caramelmacchiato)
+            binding.beveragerecipetable.setImageResource(R.drawable.caramelmacchiatorecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.caramelmacchiatorecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1140, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1000, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 연유라떼
+        if (whatbeverage == "35") {
+            binding.beverageimage.setImageResource(R.drawable.condensedmilklatte)
+            binding.beveragerecipetable.setImageResource(R.drawable.condensedmilklatterecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.condensedmilklatterecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1450, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 990, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 콜드브루아메라키노
+        if (whatbeverage == "36") {
+            binding.beverageimage.setImageResource(R.drawable.coldbrewamericano)
+            binding.beveragerecipetable.setImageResource(R.drawable.coldbrewamericanorecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.coldbrewamericanorecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 635, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 410, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
+
+        // 콜드브루라떼
+        if (whatbeverage == "37") {
+            binding.beverageimage.setImageResource(R.drawable.coldbrewlatte)
+            binding.beveragerecipetable.setImageResource(R.drawable.coldbrewlatterecipe)
+            binding.beveragerecipedetail.setImageResource(R.drawable.coldbrewlatterecipedetail)
+            val imageLayoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 575, )
+            imageLayoutParams.gravity = Gravity.CENTER
+            binding.beveragerecipedetail.layoutParams = imageLayoutParams
+            val imageLayoutParams2 = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 410, )
+            imageLayoutParams2.gravity = Gravity.CENTER
+            binding.beveragerecipetable.layoutParams = imageLayoutParams2
+        }
     }
 }
