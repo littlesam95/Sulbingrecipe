@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class BeverageAdapter(val beverageList: ArrayList<BeverageRecycler>): RecyclerView.Adapter<BeverageAdapter.CustomViewHolder>() {
     var mPosition = 0
@@ -44,8 +45,7 @@ class BeverageAdapter(val beverageList: ArrayList<BeverageRecycler>): RecyclerVi
     }
 
     override fun onBindViewHolder(holder: BeverageAdapter.CustomViewHolder, position: Int) {
-        holder.beveragebutton.setImageResource(beverageList.get(position).beveragebutton)
-        holder.beverageindex.text = beverageList.get(position).beverageindex.toString()
+        holder.bind(beverageList[position])
 
         holder.beveragebutton.setOnClickListener {
             val intent = Intent(holder.itemView?.context, BeveragerecipeActivity::class.java)
@@ -57,6 +57,11 @@ class BeverageAdapter(val beverageList: ArrayList<BeverageRecycler>): RecyclerVi
     class CustomViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val beveragebutton = itemView.findViewById<ImageButton>(R.id.beveragebutton)
         val beverageindex = itemView.findViewById<TextView>(R.id.beverageindex)
+
+        fun bind(beverageRecycler: BeverageRecycler) {
+            Glide.with(itemView).load(beverageRecycler.beveragebutton).centerInside().into(beveragebutton)
+            beverageindex.text = beverageRecycler.beverageindex.toString()
+        }
 
         init {
             beveragebutton.setOnClickListener {

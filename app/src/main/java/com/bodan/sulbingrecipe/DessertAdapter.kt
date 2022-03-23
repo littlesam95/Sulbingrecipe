@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class DessertAdapter(val dessertList: ArrayList<DessertRecycler>): RecyclerView.Adapter<DessertAdapter.CustomViewHolder>() {
     var mPosition = 0
@@ -44,8 +45,7 @@ class DessertAdapter(val dessertList: ArrayList<DessertRecycler>): RecyclerView.
     }
 
     override fun onBindViewHolder(holder: DessertAdapter.CustomViewHolder, position: Int) {
-        holder.dessertbutton.setImageResource(dessertList.get(position).dessertbutton)
-        holder.dessertindex.text = dessertList.get(position).dessertindex.toString()
+        holder.bind(dessertList[position])
 
         holder.dessertbutton.setOnClickListener {
             val intent = Intent(holder.itemView?.context, DessertrecipeActivity::class.java)
@@ -57,6 +57,11 @@ class DessertAdapter(val dessertList: ArrayList<DessertRecycler>): RecyclerView.
     class CustomViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val dessertbutton = itemView.findViewById<ImageButton>(R.id.dessertbutton)
         val dessertindex = itemView.findViewById<TextView>(R.id.dessertindex)
+
+        fun bind(dessertRecycler: DessertRecycler) {
+            Glide.with(itemView).load(dessertRecycler.dessertbutton).centerInside().into(dessertbutton)
+            dessertindex.text = dessertRecycler.dessertindex.toString()
+        }
 
         init {
             dessertbutton.setOnClickListener {

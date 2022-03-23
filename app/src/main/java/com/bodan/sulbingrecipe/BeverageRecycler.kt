@@ -1,3 +1,3 @@
 package com.bodan.sulbingrecipe
 
-data class BeverageRecycler(var beveragebutton: Int, var beverageindex: Int)
+data class BeverageRecycler(var beveragebutton: String, var beverageindex: Int)

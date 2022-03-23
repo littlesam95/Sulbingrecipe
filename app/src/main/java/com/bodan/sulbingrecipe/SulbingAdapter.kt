@@ -10,12 +10,30 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class SulbingAdapter(val sulbingList: ArrayList<SulbingRecycler>): RecyclerView.Adapter<SulbingAdapter.CustomViewHolder>() {
-    override fun setHasStableIds(hasStableIds: Boolean) {
-        super.setHasStableIds(hasStableIds)
+    var mPosition = 0
+
+    fun getPosition(): Int {
+        return mPosition
     }
 
+    private fun setPosition(position: Int) {
+        mPosition = position
+    }
+
+    fun addItem(sulbingRecycler: SulbingRecycler) {
+        sulbingList.add(sulbingRecycler)
+        notifyDataSetChanged()
+    }
+
+    fun removeItem(position: Int) {
+        if (position > 0) {
+            sulbingList.removeAt(position)
+            notifyDataSetChanged()
+        }
+    }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SulbingAdapter.CustomViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.sulbing_recycler, parent, false)
         return CustomViewHolder(view)
@@ -26,19 +44,23 @@ class SulbingAdapter(val sulbingList: ArrayList<SulbingRecycler>): RecyclerView.
     }
 
     override fun onBindViewHolder(holder: SulbingAdapter.CustomViewHolder, position: Int) {
-        holder.sulbingbutton.setImageResource(sulbingList.get(position).sulbingbutton)
-        holder.sulbingtindex.text = sulbingList.get(position).sulbingindex.toString()
+        holder.bind(sulbingList[position])
 
         holder.sulbingbutton.setOnClickListener {
             val intent = Intent(holder.itemView?.context, SulbingrecipeActivity::class.java)
-            intent.putExtra("idText", holder.sulbingtindex.text)
+            intent.putExtra("idText", holder.sulbingindex.text)
             startActivity(holder.itemView.context, intent, null)
         }
     }
 
     class CustomViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val sulbingbutton = itemView.findViewById<ImageButton>(R.id.sulbingbutton)
-        val sulbingtindex = itemView.findViewById<TextView>(R.id.sulbingindex)
+        val sulbingindex = itemView.findViewById<TextView>(R.id.sulbingindex)
+
+        fun bind(sulbingRecycler: SulbingRecycler) {
+            Glide.with(itemView).load(sulbingRecycler.sulbingbutton).centerInside().into(sulbingbutton)
+            sulbingindex.text = sulbingRecycler.sulbingindex.toString()
+        }
 
         init {
             sulbingbutton.setOnClickListener {
