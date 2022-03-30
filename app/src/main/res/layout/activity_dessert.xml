@@ -22,9 +22,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_dessert"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@drawable/backgroundcolor1" />
+        android:layout_gravity="center" />
 
     <!--
     <androidx.core.widget.NestedScrollView
